@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css">
   <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0" rel="stylesheet"/>
   <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
   <style>
     .navbar .navbar-nav .nav-link:not(.btn) i.fa{
@@ -37,9 +38,11 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" rel="tooltip" title="Add a beautiful tooltip here" data-placement="bottom" target="_blank">
-                    LOGO
-                </a>
+                <a class="navbar-brand" rel="tooltip" title="" data-placement="bottom" target="_blank" data-original-title=
+                "Add a beautiful tooltip here">FOODIE</a>
+                
+                    
+                
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
@@ -71,16 +74,19 @@
             </div>
         </div>
     </nav>
+
+    
     <!-- End Navbar -->
+    
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/img/header.jpg');">
+            <div class="page-header-image" data-parallax="true" style="background-image: url(image/img-12.jpg);">
             </div>
             <div class="container">
                 <div class="content-center brand">
-                    <img class="n-logo" src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/img/now-logo.png" alt="">
-                    <h1 class="h1-seo">Title here</h1>
-                    <h3>You can add a small description</h3>
+                    <img class="fd" src="image/foodie.png" width="200px" height="300px"alt="">
+                    <h1 class="h1-text">Foodie</h1>
+                    <h3 class="h3-text">Your number one<span> spot for your desired satisfaction </span>for the whole family.</h3> 
                 </div>
             </div>
         </div>
@@ -88,44 +94,119 @@
 
             <div class="section section-basic">
                 <div class="container text-center mt-5">
-                  <h3 class="title">Add your content here...</h3>
-
+                  <h3 class="About">Description</h3>
+                  <p>Since we opened our doors in 2000,Foodie has become a must visit Food shop in Lagos.We are known for our professional service and high quality products.We aim to be your only stop when it comes to food.</p>
+            
                 </div>
+             </div>
+        </div>
+
+        <section id="container">
+           
+            <div>
+               <h2 class="title-text">Popular Dishes</h2>
             </div>
+
+            <div class="container-center">
+              <!--Start of article-->
+              <article class="Menu">
+                
+                  <img class="Menu-image" src="image/img-04.jpg" alt="">
+                <div class="Menu-text">
+                  <h2 class="Menu-subtitle">Food 1</h2>
+
+                
+                </div>
+              </article>
+              <!--End of article-->
+
+              <!--Start of article-->
+              <article class="Menu">
+                
+                  <img class="Menu-image" src="image/img-11.jpg" alt="">
+                <div class="Menu-text">
+                  <h2 class="Menu-subtitle">Food 2</h2>
+
+                
+                </div>
+              </article>
+              <!--End of article-->
+
+              <!--Start of article-->
+              <article class="Menu">
+                
+                  <img class="Menu-image" src="image/img-06.jpg" alt="">
+                <div class="Menu-text">
+                  <h2 class="Menu-subtitle">Food 3</h2>
+
+                
+                </div>
+              </article>
+              <!--End of article-->
+
+              <!--Start of article-->
+              <article class="Menu">
+                
+                  <img class="Menu-image" src="image/img-05.jpg" alt="">
+                <div class="Menu-text">
+                  <h2 class="Menu-subtitle">Food 4</h2>
+
+                
+                </div>
+              </article>
+              <!--End of article-->
+
+          
+        
+        </div>  
+      </section>
+       <form class="section section-contact-us text-center" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action=thanks.html>
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div class="container">
+  
+                      <p class="description">Stay up-to-date with the latest information.</p>
+                      <div class="row">
+                        <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                          <div class="input-group input-lg">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="now-ui-icons users_circle-08"></i>
+                              </span>
+                            </div>
+                            <input name="username" type="text" class="form-control" placeholder="First Name..." minlength="1" required>
+                          </div>
+                          <div class="input-group input-lg">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="now-ui-icons ui-1_email-85"></i>
+                              </span>
+                            </div>
+                            <input name="email" type="text" class="form-control" placeholder="Email..." minlength="1" required>
+                          </div>
+                          <div class="textarea-container">
+                            <textarea class="form-control" name="Message" rows="4" cols="80" placeholder="Type a message..." minlength="1" required></textarea>
+                          </div>
+                          <div class="send-button">
+                            <button class="btn btn-primary btn-round btn-block btn-lg background-black">Send Message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </form>
+                  
+  
 
         <footer class="footer" data-background-color="black">
             <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://www.creative-tim.com">
-                                Creative Tim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://presentation.creative-tim.com">
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://blog.creative-tim.com">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                          
+        
                 <div class="copyright">
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
                     </script>, Designed by
-                    <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                    <a href="http://www.invisionapp.com" target="_blank">Invision</a>
+                    <a href="https://www.creative-tim.com" target="_blank"></a>.
                 </div>
             </div>
         </footer>
