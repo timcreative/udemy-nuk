@@ -1,0 +1,149 @@
+.navbar .navbar-nav .nav-link:not(.btn) i.fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    width: 21px;
+  }
+
+/* #################################### */
+/* NAV  */
+
+.navbar{
+    background-color:rgb(139, 12, 12);
+}
+
+.logo {
+    margin: 0;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+/* #################################### */
+/* header  */
+
+.page-header {
+    background-color: rgba(0, 0, 0, 0.374);
+}
+
+.shlama {
+    font-size: 50px;
+}
+
+/* #################################### */
+/* CONTANT 1 */
+
+.title {
+    color: rgb(165, 8, 8);
+    padding: 10px;
+    margin: 25px auto;
+    
+}
+
+.row {
+    margin: 60px 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+/* #################################### */
+.card {
+    padding-top: 30px;
+    margin: 10px;
+    transition: 1s;
+}
+
+ .card:hover {
+    transform: scale(1.1);
+    background-color: rgb(139, 12, 12);
+    color: white;
+}
+/* #######################
+form-section
+####################### */
+
+
+
+
+
+/* #######################
+sub-section
+####################### */
+.sub-section {
+    background-image: url(../img/assyrian-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 30px 0 0 0;
+    box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+.clan-form {
+    font-weight: bold;
+    color: white;
+    margin: 50px;
+    height: 200px;
+    width: 400px;
+}
+
+
+.black-background {
+    background-color: rgba(0, 0, 0, 0.476);
+    width: 100%;
+}
+
+.sub-text {
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+.btn {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.63);
+}
+
+.btn:hover {
+    background-color: rgb(139, 12, 12);
+}
+
+
+/* #####################footer#################### */
+
+footer{
+    box-shadow: 0 -4px 7px rgba(0, 0, 0, 0.25);
+    background-color: black;
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+.name {
+    margin: 10px;
+}
+
+.footer-p {
+    font-size: 18px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    width: 40px;
+}
+ 
